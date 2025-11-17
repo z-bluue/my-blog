@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>内容管理系统</title>
-  </head>
-  <body>
-    <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMS</title>
+  <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.Decap) {
+        window.Decap.init({
+          config: {
+            backend: {
+              name: "github",
+              repo: "z-bluue/my-blog", 
+              branch: "main",
+              auth_type: "pkce",
+              app_id: "2306479"
+            },
+            site_url: "https://wjh.wang",
+            logo_url: "/images/logo.png",
+            media_folder: "static/images/uploads",
+            public_folder: "/images/uploads",
+            collections: [
+              {
+                name: "posts",
+                label: "博客文章",
+                folder: "content/posts",
+                create: true,
+                slug: "{{slug}}",
+                fields: [
+                  { label: "标题", name: "title", widget: "string" },
+                  { label: "日期", name: "date", widget: "datetime" },
+                  { label: "描述", name: "description", widget: "text" },
+                  { label: "分类", name: "categories", widget: "list" },
+                  { label: "标签", name: "tags", widget: "list" },
+                  { label: "正文", name: "body", widget: "markdown" }
+                ]
+              }
+            ]
+          }
+        });
+      }
+    });
+  </script>
+</head>
+<body>
+</body>
 </html>
