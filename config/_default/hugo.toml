@@ -487,7 +487,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # 评论系统设置
     [params.page.comment]
-      enable = true
+      enable = false
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
@@ -781,6 +781,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   taxonomyTerm = ["HTML"]
 
 
+# 以下不需要修改
 # Multilingual
 # 多语言
 [languages]

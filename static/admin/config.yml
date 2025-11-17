@@ -4,7 +4,7 @@ backend:
   auth_type: pkce
   branch: main
   oauth:
-    client_id: Ov23liQB3waBr1l0bC1r
+  client_id: Ov23liQB3waBr1l0bC1r
 
 site_url: "https://wjh.wang"
 logo_url: /images/logo.png 
