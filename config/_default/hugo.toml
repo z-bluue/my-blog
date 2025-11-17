@@ -781,7 +781,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   taxonomyTerm = ["HTML"]
 
 
-# 以下不需要修改
 # Multilingual
 # 多语言
 [languages]
