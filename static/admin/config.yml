@@ -2,9 +2,11 @@ backend:
   name: github
   repo: z-bluue/my-blog
   branch: main
-  auth_type: implicit
+  auth_type: pkce
   app_id: Ov231iH2Arx6szlJpPkL
 
+site_url: https://z-bluue.github.io/my-blog/
+logo_url: /images/logo.png
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
