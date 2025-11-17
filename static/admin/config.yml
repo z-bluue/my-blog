@@ -15,7 +15,7 @@ collections:
   # 博客文章（LoveIt）
   - name: "posts"
     label: "博客文章"
-    folder: "content/post"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
     fields:
