@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,9 +6,11 @@
     <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
   </head>
   <body>
-    <div id="cms"></div> <!-- CMS 挂载点 -->
+    <div id="root"></div>
     <script>
-      Decap.init({ config: '/admin/config.yml', root: '#cms' });
+      Decap.init({
+        config: './config.yml'
+      })
     </script>
   </body>
 </html>
