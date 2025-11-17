@@ -3,6 +3,7 @@ backend:
   repo: z-bluue/my-blog
   branch: main
   app_id: 2306479
+  auth_type: implicit
 
 site_url: "https://wjh.wang"
 logo_url: /images/logo.png 
