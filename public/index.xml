@@ -1,18 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>My New Hugo Site</title>
-        <link>https://example.org/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 16 Nov 2025 17:19:45 &#43;0800</lastBuildDate>
-            <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Articles01</title>
-    <link>https://example.org/posts/articles01/</link>
-    <pubDate>Sun, 16 Nov 2025 17:19:45 &#43;0800</pubDate>
-    <author>xxxx</author>
-    <guid>https://example.org/posts/articles01/</guid>
-    <description><![CDATA[<h2 id="测试">测试</h2>
-<p>第六大道</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our love site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Our love site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Nov 2025 17:19:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Articles01</title>
+      <link>http://localhost:1313/post/articles01/</link>
+      <pubDate>Sun, 16 Nov 2025 17:19:45 +0800</pubDate>
+      <guid>http://localhost:1313/post/articles01/</guid>
+      <description>&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;&#xA;&lt;p&gt;第六大道&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Articles01</title>
+      <link>http://localhost:1313/posts/articles01/</link>
+      <pubDate>Sun, 16 Nov 2025 17:19:45 +0800</pubDate>
+      <guid>http://localhost:1313/posts/articles01/</guid>
+      <description>&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;&#xA;&lt;p&gt;第六大道&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

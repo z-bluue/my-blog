@@ -1,0 +1,15 @@
+# timeout
+timeout = "1200s"
+# your website url
+baseURL = 'https://wjh.wang'
+# website title
+title = 'love'
+# don't touch this
+disableKinds = ["section", "taxonomy", "term", "home"]
+# robots.txt
+enableRobotsTXT = true
+
+# theme as module
+[module]
+[[module.imports]]
+path = "github.com/Sped0n/bridget/v2" # deploy with git (recommended)

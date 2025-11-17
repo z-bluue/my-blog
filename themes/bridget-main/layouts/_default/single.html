@@ -1,0 +1,17 @@
+{{- define "main" -}}
+  <div
+    class="container"
+    data-next="{{- site.Params.labels.next -}}"
+    data-prev="{{- site.Params.labels.prev -}}"
+    data-close="{{- site.Params.labels.close -}}"
+    data-loading="{{- site.Params.labels.loading -}}"
+  >
+    {{- with .Content -}}
+      <article>
+        {{- . -}}
+      </article>
+    {{- end -}}
+
+    {{- partial "nav.html" . -}}
+  </div>
+{{- end -}}

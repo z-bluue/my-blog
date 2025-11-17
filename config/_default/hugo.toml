@@ -1,0 +1,11 @@
+# timeout
+timeout = "1200s"
+# your website url
+baseURL = "https://wjh.wang/"
+# website title
+title = 'Our love site'
+# don't touch this
+disableKinds = ["section", "taxonomy", "term", "home"]
+# robots.txt
+enableRobotsTXT = true
+

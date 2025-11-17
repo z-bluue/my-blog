@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://example.org/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Our love site</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Our love site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Nov 2025 17:19:45 +0800</lastBuildDate>
-    <atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Articles01</title>
-      <link>https://example.org/post/articles01/</link>
+      <link>http://localhost:1313/post/articles01/</link>
       <pubDate>Sun, 16 Nov 2025 17:19:45 +0800</pubDate>
-      <guid>https://example.org/post/articles01/</guid>
+      <guid>http://localhost:1313/post/articles01/</guid>
       <description>&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;&#xA;&lt;p&gt;第六大道&lt;/p&gt;</description>
     </item>
   </channel>

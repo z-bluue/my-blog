@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = "https://wjh.wang/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'LoveIt-0.3.0'
+title = 'Our love site'
+theme = 'bridget-main'
+
+disableKinds = ["section", "taxonomy", "term", "home"]
+enableRobotsTXT = true
