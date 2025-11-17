@@ -3,7 +3,7 @@ backend:
   repo: z-bluue/my-blog
   branch: main
   auth_type: pkce
-  app_id: Ov231iH2Arx6szlJpPkL
+  app_id: Ov23liQB3waBr1l0bC1r
 
 site_url: https://z-bluue.github.io/my-blog/
 logo_url: /images/logo.png
