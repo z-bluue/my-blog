@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Decap CMS Test</title>
+    <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
+  </head>
+  <body>
+    <!-- CMS 挂载容器 -->
+    <div id="nc-root"></div>
+
+    <script>
+      CMS.init({
+        config: {
+          load_config_file: false,
+          backend: {
+            name: 'github',
+            repo: 'z-bluue/my-blog',
+            branch: 'main',
+            auth_type: 'pkce',
+            app_id: 'Ov23liQB3waBr1l0bC1r'
+          },
+          media_folder: 'static/images/uploads',
+          public_folder: '/images/uploads',
+          collections: [
+            {
+              name: 'posts',
+              label: '博客文章',
+              folder: 'content/posts',
+              create: true,
+              slug: '{{slug}}',
+              fields: [
+                { label: '标题', name: 'title', widget: 'string' },
+                { label: '日期', name: 'date', widget: 'datetime' },
+                { label: '描述', name: 'description', widget: 'text' },
+                { label: '分类', name: 'categories', widget: 'list' },
+                { label: '标签', name: 'tags', widget: 'list' },
+                { label: '正文', name: 'body', widget: 'markdown' }
+              ]
+            }
+          ]
+        }
+      });
+    </script>
+  </body>
+</html>
