@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bridgets on lovesite</title>
+    <link>http://localhost:1313/bridget/</link>
+    <description>Recent content in Bridgets on lovesite</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <atom:link href="http://localhost:1313/bridget/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/erwitt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/erwitt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/Info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Info/</guid>
+      <description>&lt;p&gt;Bridget is a &lt;em&gt;minimal&lt;/em&gt; Hugo theme designed for photographers/visual artists, powered by &lt;u&gt;&lt;a href=&#34;https://www.solidjs.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;SolidJS&lt;/a&gt;&lt;/u&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The inspiration for this theme came from a video by &lt;u&gt;&lt;a href=&#34;https://www.youtube.com/@Hyperplexed&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Hyperlexed&lt;/a&gt;&lt;/u&gt;, which can be found &lt;u&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Jt3A2lNN2aE&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;here&lt;/a&gt;&lt;/u&gt;. Initially, it was developed using no third-party dependencies. However, after website designer &lt;u&gt;&lt;a href=&#34;https://tylermcrobert.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Tyler McRobert&lt;/a&gt;&lt;/u&gt; made the source code publicly available, I realized that I have invented many unnecessary wheels, and this project was modified to porting the original design to Hugo while focusing on &lt;em&gt;performance&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/webb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/webb/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

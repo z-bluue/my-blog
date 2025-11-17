@@ -1,7 +1,0 @@
-baseURL = "https://wjh.wang/"
-languageCode = 'en-us'
-title = 'Our love site'
-theme = 'bridget-main'
-
-disableKinds = ["section", "taxonomy", "term", "home"]
-enableRobotsTXT = true
