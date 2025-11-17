@@ -3,9 +3,9 @@ backend:
   repo: z-bluue/my-blog
   branch: main
   auth_type: pkce
-  app_id: Ov23liQB3waBr1l0bC1r
+  app_id: 2306262
 
-site_url: "https://wjh.wang/admin/"
+site_url: "https://wjh.wang"
 logo_url: /images/logo.png
 
 media_folder: "static/images/uploads"
