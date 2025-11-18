@@ -1,27 +1,21 @@
 backend:
   name: github
   repo: z-bluue/my-blog
-  branch: main
-  auth_type: pkce
-  app_id: 2306479
-
-site_url: "https://wjh.wang"
-logo_url: /images/logo.png 
-
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
-
+  branch: main # Branch to update (optional; defaults to master)
+  base_url: https://wjh.wang
+  auth_endpoint: /api/auth
+media_folder: static/images/uploads
+public_folder: /images/uploads
 collections:
-  # 博客文章（LoveIt）
-  - name: "posts"
-    label: "博客文章"
-    folder: "content/posts"
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
+    editor:
+      preview: false
     fields:
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "日期", name: "date", widget: "datetime" }
-      - { label: "描述", name: "description", widget: "text" }
-      - { label: "分类", name: "categories", widget: "list" }
-      - { label: "标签", name: "tags", widget: "list" }
-      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
