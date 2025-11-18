@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: z-bluue/my-blog   
+  branch: main
+  auth_type: pkce
+
+
+site_url: "https://wjh.wang"
+logo_url: /images/logo.png 
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+
+  - name: "posts"
+    label: "博客文章"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "日期", name: "date", widget: "datetime" }
+      - { label: "描述", name: "description", widget: "text" }
+      - { label: "分类", name: "categories", widget: "list" }
+      - { label: "标签", name: "tags", widget: "list" }
+      - { label: "正文", name: "body", widget: "markdown" }
