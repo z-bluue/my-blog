@@ -3,8 +3,7 @@ backend:
   repo: z-bluue/my-blog
   auth_type: pkce
   branch: main
-  oauth:
-  client_id: Ov23liQB3waBr1l0bC1r
+  app_id: 2306479
 
 site_url: "https://wjh.wang"
 logo_url: /images/logo.png 
