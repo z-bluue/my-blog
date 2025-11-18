@@ -1,6 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: z-bluue/my-blog
   branch: main
+  auth_scope: repo
+  base_url: https://wjh.wang/.netlify/functions/auth
+
 
 local_backend: true
 site_url: "https://wjh.wang"
