@@ -1,10 +1,8 @@
 backend:
-  name: github
-  repo: z-bluue/my-blog
-  auth_type: pkce
+  name: git-gateway
   branch: main
-  app_id: 2306479
 
+local_backend: true
 site_url: "https://wjh.wang"
 logo_url: /images/logo.png 
 
