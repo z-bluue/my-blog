@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: z-bluue/my-blog
+  name: git-gateway
   branch: main
-  base_url: https://wjh.wang/.netlify/functions/auth
-
 
 site_url: "https://wjh.wang"
 logo_url: /images/logo.png 
