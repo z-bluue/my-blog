@@ -4,12 +4,12 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://wjh.wang
   auth_endpoint: /api/auth
-media_folder: static/images/uploads
-public_folder: /images/uploads
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: 'content/posts'
     create: true
     slug: '{{slug}}'
     editor:

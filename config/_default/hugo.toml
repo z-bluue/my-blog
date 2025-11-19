@@ -910,15 +910,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "分类"
         url = "/categories/"
         title = ""
-      # [[languages.zh-cn.menu.main]]
-      #   weight = 4
-      #   identifier = "documentation"
-      #   pre = ""
-      #   name = "文档"
-      #   url = "/categories/documentation/"
-      #   title = ""
       [[languages.zh-cn.menu.main]]
         weight = 4
+        identifier = "documentation"
+        pre = ""
+        name = "文档"
+        url = "/categories/documentation/"
+        title = ""
+      [[languages.zh-cn.menu.main]]
+        weight = 5
         identifier = "about"
         pre = ""
         post = ""
@@ -926,7 +926,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/about/"
         title = ""
       [[languages.zh-cn.menu.main]]
-        weight = 5
+        weight = 6
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
