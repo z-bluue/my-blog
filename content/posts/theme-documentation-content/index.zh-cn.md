@@ -15,6 +15,9 @@ resources:
 tags: ["content", "Markdown"]
 categories: ["documentation"]
 
+hiddenFromHomePage: true
+hiddenFromSearch: true
+
 lightgallery: true
 
 toc:

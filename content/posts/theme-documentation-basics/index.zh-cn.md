@@ -17,6 +17,9 @@ categories: ["documentation"]
 
 lightgallery: true
 
+hiddenFromHomePage: true
+hiddenFromSearch: true
+
 toc:
   auto: false
 ---

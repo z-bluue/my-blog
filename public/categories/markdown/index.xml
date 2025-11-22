@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 18 Nov 2025 16:45:18 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 21:47:10 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mylog</title>
+      <link>http://localhost:1313/articles01/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles01/</guid>
+      <description>&lt;h1 id=&#34;记录制作网站的点滴&#34;&gt;记录制作网站的点滴&lt;/h1&gt;&#xA;&lt;h2 id=&#34;解决大问题&#34;&gt;解决大问题！！！！&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Updated: 2025-11-21&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;setting-up-decap-cms-with-hugo-and-cloudflare-pages&#34;&gt;Setting Up Decap CMS with Hugo and CloudFlare Pages&lt;/h3&gt;&#xA;&lt;p&gt;这个问题解决了好久好久，用了整整一天，试了许多许多方法，包括换成netlify等都没有实现，终于在&lt;a href=&#34;https://kunat.dev/notes/decap-cms-github-hugo-cloudflare-pages/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;https://kunat.dev/notes/decap-cms-github-hugo-cloudflare-pages/&lt;/a&gt;中找到了解决方法！！！yes！！我要好好感谢这个作者！！！&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Markdown 基本语法</title>
       <link>http://localhost:1313/basic-markdown-syntax/</link>

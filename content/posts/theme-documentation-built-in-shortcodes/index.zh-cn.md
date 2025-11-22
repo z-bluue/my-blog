@@ -15,6 +15,9 @@ resources:
 tags: ["shortcodes"]
 categories: ["documentation"]
 
+hiddenFromHomePage: true
+hiddenFromSearch: true
+
 lightgallery: true
 ---
 

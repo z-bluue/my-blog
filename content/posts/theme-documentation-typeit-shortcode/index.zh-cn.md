@@ -16,6 +16,7 @@ tags: ["shortcodes"]
 categories: ["documentation"]
 
 hiddenFromHomePage: true
+hiddenFromSearch: true
 ---
 
 `typeit` shortcode 基于 [TypeIt](https://typeitjs.com/) 库提供了打字动画.

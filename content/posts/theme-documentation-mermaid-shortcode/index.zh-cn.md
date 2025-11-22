@@ -16,6 +16,7 @@ tags: ["shortcodes"]
 categories: ["documentation"]
 
 hiddenFromHomePage: true
+hiddenFromSearch: true
 ---
 
 {{< version 0.2.11 changed >}}

@@ -16,6 +16,7 @@ tags: ["shortcodes"]
 categories: ["documentation"]
 
 hiddenFromHomePage: true
+hiddenFromSearch: true
 
 toc:
   enable: false

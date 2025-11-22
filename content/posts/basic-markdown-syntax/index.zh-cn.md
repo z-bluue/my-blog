@@ -15,6 +15,9 @@ resources:
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
 
+hiddenFromHomePage: true
+hiddenFromSearch: true
+
 lightgallery: true
 ---
 

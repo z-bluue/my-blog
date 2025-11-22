@@ -9,8 +9,11 @@
     <pubDate>Fri, 21 Nov 2025 00:00:00 &#43;0000</pubDate>
     <author>zrc</author>
     <guid>http://localhost:1313/articles01/</guid>
-    <description><![CDATA[<h2 id="测试">测试</h2>
-<p>第六大道</p>]]></description>
+    <description><![CDATA[<h1 id="记录制作网站的点滴">记录制作网站的点滴</h1>
+<h2 id="解决大问题">解决大问题！！！！</h2>
+<p><em>Updated: 2025-11-21</em></p>
+<h3 id="setting-up-decap-cms-with-hugo-and-cloudflare-pages">Setting Up Decap CMS with Hugo and CloudFlare Pages</h3>
+<p>这个问题解决了好久好久，用了整整一天，试了许多许多方法，包括换成netlify等都没有实现，终于在<a href="https://kunat.dev/notes/decap-cms-github-hugo-cloudflare-pages/" target="_blank" rel="noopener noreffer ">https://kunat.dev/notes/decap-cms-github-hugo-cloudflare-pages/</a>中找到了解决方法！！！yes！！我要好好感谢这个作者！！！</p>]]></description>
 </item>
 <item>
     <title>主题文档 - 基本概念</title>
@@ -75,7 +78,8 @@
     <pubDate>Tue, 03 Mar 2020 14:29:59 &#43;0800</pubDate>
     <author>Dillon</author>
     <guid>http://localhost:1313/theme-documentation-echarts-shortcode/</guid>
-    <description><![CDATA[<p><code>echarts</code> shortcode 使用 <a href="https://echarts.apache.org/" target="_blank" rel="noopener noreffer ">ECharts</a> 库提供数据可视化的功能.</p>]]></description>
+    <description><![CDATA[<h2 id="maxshownlines-70">maxShownLines: 70</h2>
+<p><code>echarts</code> shortcode 使用 <a href="https://echarts.apache.org/" target="_blank" rel="noopener noreffer ">ECharts</a> 库提供数�</p>]]></description>
 </item>
 <item>
     <title>主题文档 - mapbox Shortcode</title>

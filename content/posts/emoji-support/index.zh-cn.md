@@ -15,7 +15,12 @@ resources:
 tags: ["emoji"]
 categories: ["Markdown"]
 
+hiddenFromHomePage: true
+
+hiddenFromSearch: true
+
 twemoji: false
+
 lightgallery: true
 ---
 

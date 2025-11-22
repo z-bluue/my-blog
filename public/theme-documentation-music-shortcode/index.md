@@ -1,5 +1,7 @@
 # 主题文档 - music Shortcode
 
+enFromSearch: true
+---
 
 `music` shortcode 基于 [APlayer](https://github.com/MoePlayer/APlayer) 和 [MetingJS](https://github.com/metowolf/MetingJS) 库提供了一个内嵌的响应式音乐播放器.
 

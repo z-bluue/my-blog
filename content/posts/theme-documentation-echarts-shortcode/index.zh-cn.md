@@ -15,6 +15,7 @@ resources:
 tags: ["shortcodes"]
 categories: ["documentation"]
 
+hiddenFromSearch: true
 hiddenFromHomePage: true
 
 toc:

@@ -37,7 +37,7 @@
                             "url": "http:\/\/localhost:1313\/theme-documentation-music-shortcode\/featured-image.png",
                             "width":  1800 ,
                             "height":  500 
-                        }],"genre": "posts","keywords": "shortcodes","wordcount":  712 ,
+                        }],"genre": "posts","keywords": "shortcodes","wordcount":  746 ,
         "url": "http:\/\/localhost:1313\/theme-documentation-music-shortcode\/","datePublished": "2020-03-03T12:29:59+08:00","dateModified": "2025-11-18T16:45:18+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -122,7 +122,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">主题文档 - music Shortcode</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Dillon</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/documentation/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>文档</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-03-03">2020-03-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 712 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-03-03">2020-03-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 746 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -138,23 +138,27 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#custom-music-url">1 自定义音乐 URL</a></li>
+    <li><a href="#enfromsearch-true">enFromSearch: true</a></li>
+    <li><a href="#1-自定义音乐-urhahahugoshortcode27s0hbhb">1 自定义音乐 URHAHAHUGOSHORTCODE27s0HBHB</a></li>
     <li><a href="#automatic-identification">2 音乐平台 URL 的自动识别</a></li>
     <li><a href="#custom-server">3 自定义音乐平台, 类型和 ID</a></li>
     <li><a href="#other-parameters">4 其它参数</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p><code>music</code> shortcode 基于 <a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener noreffer ">APlayer</a> 和 <a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreffer ">MetingJS</a> 库提供了一个内嵌的响应式音乐播放器.</p>
+            </div><div class="content" id="content"><h2 id="enfromsearch-true">enFromSearch: true</h2>
+<p><code>music</code> shortcode 基于 <a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener noreffer ">APlayer</a> 和 <a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreffer ">MetingJS</a> 库提供了一个内嵌的响�</p>
+<p>�放器.</p>
+<!--more-->
 <p>有三种方式使用 <code>music</code> shortcode.</p>
-<h2 id="custom-music-url">1 自定义音乐 URL</h2>
-<p><a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.10" rel="noopener noreffer" target="_blank"><img
+<h2 id="1-自定义音乐-urhahahugoshortcode27s0hbhb">1 自定义音乐 UR<a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.10" rel="noopener noreffer" target="_blank"><img
         class="lazyload version"
         src="/svg/loading.min.svg"
         data-src="/svg/version/0.2.10-new.zh-cn.min.svg"
         data-srcset="/svg/version/0.2.10-new.zh-cn.min.svg, /svg/version/0.2.10-new.zh-cn.min.svg 1.5x, /svg/version/0.2.10-new.zh-cn.min.svg 2x"
         data-sizes="auto"
         alt="LoveIt 新增 | 0.2.10"
-        title="LoveIt 新增 | 0.2.10" /></a> 支持<a href="../theme-documentation-content#contents-organization" rel="">本地资源引用</a>的完整用法.</p>
+        title="LoveIt 新增 | 0.2.10" /></a></h2>
+<p>{{&lt; version 0.2.10 &gt;}} 支持<a href="../theme-documentation-content#contents-organization" rel="">本地资源引用</a>的完整用法.</p>
 <p><code>music</code> shortcode 有以下命名参数来使用自定义音乐 URL:</p>
 <ul>
 <li>
@@ -174,17 +178,16 @@
 <p>音乐的封面链接.</p>
 </li>
 </ul>
-<p>一个使用自定义音乐 URL 的 <code>music</code> 示例:</p>
+<p>一个使用自定义音乐 URL 的 <code>music</code> �例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{&lt; music url=&#34;/music/Wavelength.mp3&#34; name=Wavelength artist=oldmanyoung cover=&#34;/images/Wavelength.jpg&#34; &gt;}}
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{&lt;/* music url=&#34;/music/Wavelength.mp3&#34; name=Wavelength artist=oldmanyoung cover=&#34;/ages/Wavelength.jpg&#34; */&gt;}}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>呈现的输出效果如下:</p>
-<meting-js url="/music/Wavelength.mp3" name="Wavelength" artist="oldmanyoung" cover="/images/Wavelength.jpg" theme="#448aff"></meting-js>
+</div><p>呈现�<meting-js url="/music/Wavelength.mp3" name="Wavelength" artist="oldmanyoung" cover="/images/Wavelength.jpg" theme="#448aff"></meting-js>ges/Wavelength.jpg&quot; &gt;}}</p>
 <h2 id="automatic-identification">2 音乐平台 URL 的自动识别</h2>
 <p><code>music</code> shortcode 有一个命名参数来使用音乐平台 URL 的自动识别:</p>
 <ul>
@@ -193,7 +196,7 @@
 <p>用来自动识别的音乐平台 URL, 支持 <code>netease</code>, <code>tencent</code> 和 <code>xiami</code> 平台.</p>
 </li>
 </ul>
-<p>一个使用音乐平台 URL 的自动识别的 <code>music</code> 示例:</p>
+<p>一个使用音乐平台 URL 的自动识别的 <code>music</code> �例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -201,13 +204,12 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{&lt; music auto=&#34;https://music.163.com/<span class="ni">#/playlist</span>?id=60198&#34; &gt;}}
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{&lt;/* music auto=&#34;https://music.163.co<span class="ni">#/playlist</span>?id=198&#34; */&gt;}}
 </span></span><span class="line"><span class="cl">或者
-</span></span><span class="line"><span class="cl">{{&lt; music &#34;https://music.163.com/<span class="ni">#/playlist</span>?id=60198&#34; &gt;}}
+</span></span><span class="line"><span class="cl">{{&lt;/* music &#34;https://music.163.co<span class="ni">#/playlist</span>?id=60198&#34; */&gt;}}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>呈现的输出效果如下:</p>
-<meting-js auto="https://music.163.com/#/playlist?id=60198" theme="#448aff"></meting-js>
+</div><p>呈现�<meting-js auto="https://music.163.com/#/playlist?id=60198" theme="#448aff"></meting-js>/playlist?id=60198&quot; &gt;}}</p>
 <h2 id="custom-server">3 自定义音乐平台, 类型和 ID</h2>
 <p><code>music</code> shortcode 有以下命名参数来使用自定义音乐平台:</p>
 <ul>
@@ -226,7 +228,7 @@
 <p>歌曲 ID, 或者播放列表 ID, 或者专辑 ID, 或者搜索关键词, 或者创作者 ID.</p>
 </li>
 </ul>
-<p>一个使用自定义音乐平台的 <code>music</code> 示例:</p>
+<p>一个使用自定义音乐平台的 <code>music</code> �例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -234,26 +236,24 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{&lt; music server=&#34;netease&#34; type=&#34;song&#34; id=&#34;1868553&#34; &gt;}}
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{&lt;/* music server=&#34;netease&#34; ty=&#34;song&#34; id=&#34;18553&#34; */&gt;}}
 </span></span><span class="line"><span class="cl">或者
-</span></span><span class="line"><span class="cl">{{&lt; music netease song 1868553 &gt;}}
+</span></span><span class="line"><span class="cl">{{&lt;/* musinetease song 1868553 */&gt;}}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>呈现的输出效果如下:</p>
-<meting-js server="netease" type="song" id="1868553" theme="#448aff"></meting-js>
+</div><p>呈现�<meting-js server="netease" type="song" id="1868553" theme="#448aff"></meting-js>etease song 1868553 &gt;}}</p>
 <h2 id="other-parameters">4 其它参数</h2>
 <p><code>music</code> shortcode 有一些可以应用于以上三种方式的其它命名参数:</p>
 <ul>
 <li>
-<p><strong>theme</strong> <em>[可选]</em></p>
-<p><a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+<p>**t<a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
             class="lazyload version"
             src="/svg/loading.min.svg"
             data-src="/svg/version/0.2.0-changed.zh-cn.min.svg"
             data-srcset="/svg/version/0.2.0-changed.zh-cn.min.svg, /svg/version/0.2.0-changed.zh-cn.min.svg 1.5x, /svg/version/0.2.0-changed.zh-cn.min.svg 2x"
             data-sizes="auto"
             alt="LoveIt 更改 | 0.2.0"
-            title="LoveIt 更改 | 0.2.0" /></a> 音乐播放器的主题色, 默认值是 <code>#448aff</code>.</p>
+            title="LoveIt 更改 | 0.2.0" /></a>rsion 0.2.0 changed &gt;}} 音乐播放器的主题色, 默认值是 <code>#448aff</code>.</p>
 </li>
 <li>
 <p><strong>fixed</strong> <em>[可选]</em></p>
@@ -294,7 +294,7 @@
 </li>
 <li>
 <p><strong>list-max-height</strong> <em>[可选]</em></p>
-<p>音乐列表的最大高度, 默认值是 <code>340px</code>.</p>
+<p>音乐列表的最大高度,</p>
 </li>
 </ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
@@ -335,5 +335,5 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/aplayer/APlayer.min.css"><link rel="stylesheet" href="/lib/aplayer/dark.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/index.umd.js"></script><script type="text/javascript" src="/lib/aplayer/APlayer.min.js"></script><script type="text/javascript" src="/lib/meting/Meting.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"data":{"id-1":"Our love site","id-2":"Our love site"},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"},"typeit":{"cursorChar":"❤","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"data":{"id-1":"Our love site","id-2":"Our love site"},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"},"typeit":{"cursorChar":"❤","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

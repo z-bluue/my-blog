@@ -9,13 +9,6 @@
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <atom:link href="http://localhost:1313/categories/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>mylog</title>
-      <link>http://localhost:1313/articles01/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles01/</guid>
-      <description>&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;&#xA;&lt;p&gt;第六大道&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>主题文档 - 基本概念</title>
       <link>http://localhost:1313/theme-documentation-basics/</link>
       <pubDate>Fri, 06 Mar 2020 21:40:32 +0800</pubDate>
@@ -55,7 +48,7 @@
       <link>http://localhost:1313/theme-documentation-echarts-shortcode/</link>
       <pubDate>Tue, 03 Mar 2020 14:29:59 +0800</pubDate>
       <guid>http://localhost:1313/theme-documentation-echarts-shortcode/</guid>
-      <description>&lt;p&gt;&lt;code&gt;echarts&lt;/code&gt; shortcode 使用 &lt;a href=&#34;https://echarts.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;ECharts&lt;/a&gt; 库提供数据可视化的功能.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;maxshownlines-70&#34;&gt;maxShownLines: 70&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;echarts&lt;/code&gt; shortcode 使用 &lt;a href=&#34;https://echarts.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;ECharts&lt;/a&gt; 库提供数�&lt;/p&gt;</description>
     </item>
     <item>
       <title>主题文档 - mapbox Shortcode</title>
@@ -69,7 +62,7 @@
       <link>http://localhost:1313/theme-documentation-music-shortcode/</link>
       <pubDate>Tue, 03 Mar 2020 12:29:59 +0800</pubDate>
       <guid>http://localhost:1313/theme-documentation-music-shortcode/</guid>
-      <description>&lt;p&gt;&lt;code&gt;music&lt;/code&gt; shortcode 基于 &lt;a href=&#34;https://github.com/MoePlayer/APlayer&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;APlayer&lt;/a&gt; 和 &lt;a href=&#34;https://github.com/metowolf/MetingJS&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;MetingJS&lt;/a&gt; 库提供了一个内嵌的响应式音乐播放器.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;enfromsearch-true&#34;&gt;enFromSearch: true&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;music&lt;/code&gt; shortcode 基于 &lt;a href=&#34;https://github.com/MoePlayer/APlayer&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;APlayer&lt;/a&gt; 和 &lt;a href=&#34;https://github.com/metowolf/MetingJS&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;MetingJS&lt;/a&gt; 库提供了一个内嵌的响�&lt;/p&gt;</description>
     </item>
     <item>
       <title>主题文档 - bilibili Shortcode</title>
