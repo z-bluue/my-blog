@@ -9,7 +9,7 @@ public_folder: "/images/uploads"
 collections:
   - name: 'blog'
     label: '博客'
-    folder: 'content/posts/Mylog'
+    folder: 'content/posts/mylog'
     create: true
     slug: '{{slug}}'
     editor:
