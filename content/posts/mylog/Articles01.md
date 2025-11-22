@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "mylog"
-date: 2025-11-21
-lastmod: 2025-11-21
+date: 2025-11-18
+lastmod: 2025-11-18
 draft: false
 author: "zrc"
 authorLink: "https://github.com/z-bluue/my-blog"
@@ -23,6 +23,7 @@ toc:
 ---
 
 # 记录制作网站的点滴
+
 ## 解决大问题！！！！
 _Updated: 2025-11-21_
 

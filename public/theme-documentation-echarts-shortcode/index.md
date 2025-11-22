@@ -1,7 +1,5 @@
 # 主题文档 - echarts Shortcode
 
- maxShownLines: 70
----
 
 `echarts` shortcode 使用 [ECharts](https://echarts.apache.org/) 库提供数据可视化的功能.
 
