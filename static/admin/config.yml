@@ -18,4 +18,14 @@ collections:
       - { label: '标题', name: 'title', widget: 'string' }
       - { label: '发布日期', name: 'date', widget: 'datetime' }
       - { label: '描述', name: 'description', widget: 'string' }
+      - { label: '作者', name: 'author', widget: 'relation', collection: 'authors', search_fields: ['name'], value_field: 'name', display_fields: ['name'] }
       - { label: '正文', name: 'body', widget: 'markdown' }
+
+  - name: 'authors'
+    label: '作者列表'
+    folder: 'content/authors'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: '姓名', name: 'name', widget: 'string' }
+      - { label: '简介', name: 'bio', widget: 'text', required: false }
