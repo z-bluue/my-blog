@@ -941,6 +941,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = ""
         url = "https://github.com/z-bluue/my-blog"
         title = "GitHub"
+      [[languages.zh-cn.menu.main]]
+        weight = 7
+        identifier = "write"
+        pre = ""
+        post = ""
+        name = "post"
+        url = "https://wjh.wang/admin"
+        title = "前往后台写博客"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
         enable = true
