@@ -925,14 +925,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "文档"
         url = "/categories/documentation/"
         title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "关于"
-        url = "/about/"
-        title = ""
+      # [[languages.zh-cn.menu.main]]
+      #   weight = 5
+      #   identifier = "about"
+      #   pre = ""
+      #   post = ""
+      #   name = "关于"
+      #   url = "/about/"
+      #   title = ""
       [[languages.zh-cn.menu.main]]
         weight = 6
         identifier = "github"
