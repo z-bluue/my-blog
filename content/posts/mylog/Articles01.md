@@ -1,5 +1,4 @@
 ---
-weight: 1
 title: "mylog"
 date: 2025-11-18
 lastmod: 2025-11-18
