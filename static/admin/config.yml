@@ -19,6 +19,8 @@ collections:
       - { label: '发布日期', name: 'date', widget: 'datetime' }
       - { label: '描述', name: 'description', widget: 'string' }
       - { label: '作者', name: 'author', widget: 'relation', collection: 'authors', search_fields: ['name'], value_field: 'name', display_fields: ['name'] }
+      - { label: '标签', name: 'tags', widget: 'list', required: false }
+      - { label: '分类', name: 'categories', widget: 'list', required: false }
       - { label: '正文', name: 'body', widget: 'markdown' }
 
   - name: 'authors'
