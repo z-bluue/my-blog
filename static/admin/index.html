@@ -4,8 +4,28 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
+    <style>
+      .back-home {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 9999;
+        background: #3a7bd5;
+        color: #fff;
+        padding: 6px 14px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: sans-serif;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      }
+      .back-home:hover {
+        background: #2d6ac4;
+      }
+    </style>
   </head>
   <body>
+    <a class="back-home" href="https://wjh.wang">← 返回主页</a>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <link rel="stylesheet" href="/admin/dark.css">
     <script src="https://unpkg.com/decap-cms@3.1.0-beta.5/dist/decap-cms.js"></script>
