@@ -83,6 +83,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     name = "Categories"
     url = "/categories/"
     title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "write"
+    pre = ""
+    post = ""
+    name = "post"
+    url = "https://wjh.wang/admin"
+    title = "前往后台写博客"
 
 [params]
   # 网站默认主题 ["auto", "light", "dark"]
