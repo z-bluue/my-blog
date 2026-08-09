@@ -20,9 +20,20 @@ collections:
       - { label: '描述', name: 'description', widget: 'string' }
       - { label: '作者', name: 'author', widget: 'relation', collection: 'authors', search_fields: ['name'], value_field: 'name', display_fields: ['name'] }
       - { label: '标签', name: 'tags', widget: 'list', required: false }
-      - { label: '分类', name: 'categories', widget: 'list', required: false }
+      - { label: '分类', name: 'categories', widget: 'relation', collection: 'category', search_fields: ['title', 'name'], value_field: 'name', display_fields: ['title'], multiple: true, required: false }
       - { label: '置顶权重', name: 'weight', widget: 'number', default: 0, hint: '0=不置顶, 数字越小越靠前(如1,2,3)' }
       - { label: '正文', name: 'body', widget: 'markdown' }
+
+  - name: 'category'
+    label: '分类管理'
+    label_singular: '分类'
+    folder: 'content/categories'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: 'name'
+    fields:
+      - { label: '分类名', name: 'title', widget: 'string' }
+      - { label: '标识符', name: 'name', widget: 'string', hint: '英文标识，如 markdown, life, tech' }
 
   - name: 'authors'
     label: '作者列表'
