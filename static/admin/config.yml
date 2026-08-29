@@ -22,7 +22,7 @@ collections:
       - { label: '标签', name: 'tags', widget: 'list', required: false }
       - { label: '分类', name: 'categories', widget: 'relation', collection: 'category', search_fields: ['title', 'name'], value_field: 'name', display_fields: ['title'], multiple: true, required: false }
       - { label: '置顶权重', name: 'weight', widget: 'number', default: 0, hint: '0=不置顶, 数字越小越靠前(如1,2,3)' }
-      - { label: '正文', name: 'body', widget: 'markdown' }
+      - { label: '正文', name: 'body', widget: 'markdown', hint: '提示：点击正文工具栏右侧的 ➕，选择「📷 批量插入照片」，可以一次选中多张照片一起上传插入。' }
 
   - name: 'category'
     label: '分类管理'
