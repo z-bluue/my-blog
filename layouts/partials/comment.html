@@ -1,0 +1,21 @@
+{{- /* 自建评论系统 (GitHub Issues 存储, GitHub OAuth 登录) */ -}}
+{{- $comment := .Scratch.Get "comment" -}}
+{{- if eq $comment nil -}}
+    {{- /* development 环境 (hugo serve) 下 .Scratch 无 comment 值, 回退到站点配置便于本地预览 */ -}}
+    {{- $comment = .Site.Params.page.comment -}}
+{{- end -}}
+{{- $comment = $comment | default dict -}}
+{{- $wjh := $comment.wjh | default dict -}}
+{{- if and $comment.enable $wjh.repo -}}
+    <div
+        id="comments"
+        class="wjh-comments"
+        data-repo="{{ $wjh.repo }}"
+        data-label="{{ $wjh.label | default "blog-comment" }}"
+    ></div>
+    <link rel="stylesheet" href="{{ "css/wjh-comments.css?v=20260829" | relURL }}">
+    <script src="{{ "js/wjh-comments.js?v=20260829" | relURL }}" defer></script>
+    <noscript>
+        <p>请启用 JavaScript 查看评论。</p>
+    </noscript>
+{{- end -}}

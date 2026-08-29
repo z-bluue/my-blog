@@ -568,9 +568,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = true
+        enable = false
         # owner/repo
-        repo = "z-bluue/my-blog"
+        repo = ""
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
@@ -595,6 +595,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         lazyLoading = false
         lightTheme = "light"
         darkTheme = "dark"
+
+      # 自建评论系统设置 (基于 GitHub Issues)
+      [params.page.comment.wjh]
+        # 存储评论的 GitHub 仓库 (owner/repo)
+        repo = "z-bluue/my-blog"
+        # 每篇文章对应一个 Issue 的标签, 首次发表评论时自动创建
+        label = "blog-comment"
 
     # 第三方库配置
     [params.page.library]

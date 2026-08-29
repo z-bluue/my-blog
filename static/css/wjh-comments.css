@@ -1,0 +1,350 @@
+/* ============================================================
+   自建评论组件样式 (wjh-comments)
+   与 LoveIt 主题风格一致, 支持明暗两种主题
+   ============================================================ */
+
+#comments.wjh-comments {
+    padding: 3rem 0 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #161209;
+    --wjh-border: #e8e8e8;
+    --wjh-secondary: #a9a9b3;
+    --wjh-link: #2d96bd;
+    --wjh-link-hover: #1d7d9e;
+    --wjh-accent: #2d96bd;
+    --wjh-accent-contrast: #fff;
+    --wjh-input-bg: #fafafa;
+    --wjh-code-bg: #f6f6f6;
+    --wjh-blockquote: #e8e8e8;
+}
+
+body[theme="dark"] #comments.wjh-comments {
+    color: #a9a9b3;
+    --wjh-border: #3a3a3d;
+    --wjh-secondary: #6f6f76;
+    --wjh-link: #55bde2;
+    --wjh-link-hover: #8ad1ee;
+    --wjh-accent: #55bde2;
+    --wjh-accent-contrast: #252627;
+    --wjh-input-bg: #2f3033;
+    --wjh-code-bg: #272c34;
+    --wjh-blockquote: #3a3a3d;
+}
+
+/* ---------- 头部 ---------- */
+.wjh-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid var(--wjh-border);
+}
+
+.wjh-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45rem;
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.wjh-title .wjh-count {
+    font-size: 0.82rem;
+    font-weight: 400;
+    color: var(--wjh-secondary);
+}
+
+/* ---------- 登录区 ---------- */
+.wjh-user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.wjh-user .wjh-avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid var(--wjh-border);
+}
+
+.wjh-user .wjh-name {
+    font-size: 0.85rem;
+    color: var(--wjh-link);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.wjh-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    border-radius: 999px;
+    border: 1px solid var(--wjh-border);
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+}
+
+.wjh-btn:hover {
+    border-color: var(--wjh-link);
+    color: var(--wjh-link);
+}
+
+.wjh-btn.primary {
+    background: var(--wjh-accent);
+    border-color: var(--wjh-accent);
+    color: var(--wjh-accent-contrast);
+}
+
+.wjh-btn.primary:hover {
+    opacity: 0.85;
+    color: var(--wjh-accent-contrast);
+}
+
+.wjh-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.wjh-btn svg {
+    width: 14px;
+    height: 14px;
+    flex: none;
+}
+
+/* ---------- 评论列表 ---------- */
+.wjh-list {
+    margin-top: 0.6rem;
+}
+
+.wjh-item {
+    display: flex;
+    gap: 0.8rem;
+    padding: 1rem 0;
+    border-bottom: 1px dashed var(--wjh-border);
+}
+
+.wjh-item:last-child {
+    border-bottom: none;
+}
+
+.wjh-item .wjh-avatar {
+    width: 42px;
+    height: 42px;
+    flex: none;
+    border-radius: 50%;
+    border: 1px solid var(--wjh-border);
+    background: var(--wjh-input-bg);
+}
+
+.wjh-item .wjh-main {
+    flex: 1;
+    min-width: 0;
+}
+
+.wjh-item .wjh-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+}
+
+.wjh-item .wjh-nick {
+    font-weight: 600;
+    color: var(--wjh-link);
+    text-decoration: none;
+}
+
+.wjh-item .wjh-nick:hover {
+    color: var(--wjh-link-hover);
+    text-decoration: underline;
+}
+
+.wjh-item .wjh-time {
+    font-size: 0.78rem;
+    color: var(--wjh-secondary);
+}
+
+.wjh-item .wjh-content {
+    margin-top: 0.4rem;
+    overflow-wrap: break-word;
+}
+
+.wjh-item .wjh-content p {
+    margin: 0.5em 0;
+}
+
+.wjh-item .wjh-content p:first-child {
+    margin-top: 0;
+}
+
+.wjh-item .wjh-content p:last-child {
+    margin-bottom: 0;
+}
+
+.wjh-item .wjh-content a {
+    color: var(--wjh-link);
+}
+
+.wjh-item .wjh-content a:hover {
+    color: var(--wjh-link-hover);
+}
+
+.wjh-item .wjh-content img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.wjh-item .wjh-content code {
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    background: var(--wjh-code-bg);
+    font-size: 0.88em;
+    font-family: "Fira Mono", "Source Code Pro", Menlo, Consolas, monospace;
+}
+
+.wjh-item .wjh-content pre {
+    overflow-x: auto;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    background: var(--wjh-code-bg);
+}
+
+.wjh-item .wjh-content pre code {
+    padding: 0;
+    background: transparent;
+    font-size: 0.85em;
+}
+
+.wjh-item .wjh-content blockquote {
+    margin: 0.6em 0;
+    padding: 0.2em 1em;
+    border-left: 3px solid var(--wjh-blockquote);
+    color: var(--wjh-secondary);
+}
+
+.wjh-item .wjh-content ul,
+.wjh-item .wjh-content ol {
+    padding-left: 1.5em;
+}
+
+.wjh-item .wjh-reply {
+    margin-top: 0.45rem;
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--wjh-secondary);
+    font-size: 0.78rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: color 0.2s ease;
+}
+
+.wjh-item .wjh-reply:hover {
+    color: var(--wjh-link);
+}
+
+@keyframes wjh-flash {
+    0% { background: rgba(45, 150, 189, 0.12); }
+    100% { background: transparent; }
+}
+
+.wjh-item.wjh-item-new {
+    animation: wjh-flash 2s ease;
+}
+
+/* ---------- 状态提示 ---------- */
+.wjh-status {
+    padding: 1.6rem 0;
+    text-align: center;
+    color: var(--wjh-secondary);
+}
+
+.wjh-status .wjh-retry {
+    margin-top: 0.6rem;
+}
+
+.wjh-loading {
+    display: inline-block;
+    color: var(--wjh-secondary);
+}
+
+.wjh-loading::after {
+    content: "...";
+    animation: wjh-dots 1.2s steps(4, end) infinite;
+}
+
+@keyframes wjh-dots {
+    0% { content: ""; }
+    25% { content: "."; }
+    50% { content: ".."; }
+    75% { content: "..."; }
+}
+
+/* ---------- 编辑区 ---------- */
+.wjh-editor {
+    margin-top: 1.4rem;
+}
+
+.wjh-textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 0.75rem 0.95rem;
+    box-sizing: border-box;
+    border: 1px solid var(--wjh-border);
+    border-radius: 10px;
+    background: var(--wjh-input-bg);
+    color: inherit;
+    font-family: inherit;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    resize: vertical;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wjh-textarea:focus {
+    outline: none;
+    border-color: var(--wjh-link);
+    box-shadow: 0 0 0 3px rgba(45, 150, 189, 0.15);
+}
+
+.wjh-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 0.65rem;
+}
+
+.wjh-hint {
+    font-size: 0.8rem;
+    color: var(--wjh-secondary);
+}
+
+.wjh-error {
+    margin-top: 0.65rem;
+    font-size: 0.85rem;
+    color: #e05d44;
+}
+
+/* ---------- 移动端 ---------- */
+@media (max-width: 560px) {
+    .wjh-item .wjh-avatar {
+        width: 34px;
+        height: 34px;
+    }
+
+    .wjh-head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -3,19 +3,96 @@
         <title>lovesite</title>
         <link>http://localhost:1313/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 18 Nov 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 26 Aug 2026 14:25:55 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>mylog</title>
-    <link>http://localhost:1313/articles01/</link>
-    <pubDate>Tue, 18 Nov 2025 00:00:00 &#43;0000</pubDate>
-    <author>zrc</author>
-    <guid>http://localhost:1313/articles01/</guid>
-    <description><![CDATA[<h1 id="记录制作网站的点滴">记录制作网站的点滴</h1>
-<h2 id="解决大问题">解决大问题！！！！</h2>
-<p><em>Updated: 2025-11-21</em></p>
-<h3 id="setting-up-decap-cms-with-hugo-and-cloudflare-pages">Setting Up Decap CMS with Hugo and CloudFlare Pages</h3>
-<p>这个问题解决了好久好久，用了整整一天，试了许多许多方法，包括换成netlify等都没有实现，终于在<a href="https://kunat.dev/notes/decap-cms-github-hugo-cloudflare-pages/" target="_blank" rel="noopener noreffer ">https://kunat.dev/notes/decap-cms-github-hugo-cloudflare-pages/</a>中找到了解决方法！！！yes！！我要好好感谢这个作者！！！</p>]]></description>
+    <title>美美的裙子兮</title>
+    <link>http://localhost:1313/%E7%BE%8E%E7%BE%8E%E7%9A%84%E8%A3%99%E5%AD%90%E5%85%AE/</link>
+    <pubDate>Wed, 26 Aug 2026 14:25:55 &#43;0000</pubDate>
+    <author>wjh</author>
+    <guid>http://localhost:1313/%E7%BE%8E%E7%BE%8E%E7%9A%84%E8%A3%99%E5%AD%90%E5%85%AE/</guid>
+    <description><![CDATA[<p>今天wjh穿了很美丽的裙子兮 开心兮 整个人都很开心啊 zrc拍照虽然都不咋出片 但还是不错的 我明年夏天要买更多好看的裙子 嘻嘻</p>
+<p>btw zrc虽然拍的很黑 但是我感觉还是很好看的 很有感觉啊哈哈哈</p>]]></description>
+</item>
+<item>
+    <title>七夕节快乐</title>
+    <link>http://localhost:1313/%E4%B8%83%E5%A4%95%E8%8A%82%E5%BF%AB%E4%B9%90/</link>
+    <pubDate>Wed, 19 Aug 2026 15:59:43 &#43;0000</pubDate>
+    <author>wjh</author>
+    <guid>http://localhost:1313/%E4%B8%83%E5%A4%95%E8%8A%82%E5%BF%AB%E4%B9%90/</guid>
+    <description><![CDATA[<p>nonono 最后一秒零点了sad</p>
+<p>但还是七夕节快乐🎉</p>
+<p>爱你宝贝么么么</p>
+<p></p>]]></description>
+</item>
+<item>
+    <title>jh大揭秘！</title>
+    <link>http://localhost:1313/jh%E5%A4%A7%E6%8F%AD%E7%A7%98/</link>
+    <pubDate>Mon, 17 Aug 2026 04:24:03 &#43;0000</pubDate>
+    <author>wjh</author>
+    <guid>http://localhost:1313/jh%E5%A4%A7%E6%8F%AD%E7%A7%98/</guid>
+    <description><![CDATA[<p>wjh最近太容易生气了 wjh在反思 可是反思完wjh很清楚意识到自己还是会犯</p>
+<p>然后好好想了想 感觉还是太容易生气了 然后又想了想 还是太容易生气了</p>
+<p>因为强迫症➕洁癖 感觉自己整个人s都很紧绷😬 性格又敏感多疑</p>]]></description>
+</item>
+<item>
+    <title>回归</title>
+    <link>http://localhost:1313/%E5%9B%9E%E5%BD%92/</link>
+    <pubDate>Fri, 14 Aug 2026 16:52:08 &#43;0000</pubDate>
+    <author>wjh</author>
+    <guid>http://localhost:1313/%E5%9B%9E%E5%BD%92/</guid>
+    <description><![CDATA[<p>很喜欢这个小网站 以后会好好记录zrc惹我生气的原因的 让zrc好好记住😋虽然他一直在每天致力于惹我🤔🤔🤔哎 没办法 男人🧍‍♂️</p>
+<p>咦😕上传照片突然变得很迅速 我很好奇这个上传的照片会占内存吗 因为一直会有 不懂</p>]]></description>
+</item>
+<item>
+    <title>二周年</title>
+    <link>http://localhost:1313/%E4%BA%8C%E5%91%A8%E5%B9%B4/</link>
+    <pubDate>Sat, 01 Aug 2026 12:06:00 &#43;0000</pubDate>
+    <author>zrcc</author>
+    <guid>http://localhost:1313/%E4%BA%8C%E5%91%A8%E5%B9%B4/</guid>
+    <description><![CDATA[<p>不知不觉两周年啦 这个网站也很久没有发过东西了 哎 某人已经把这个忘了吧 不过好开心 我们已经陪伴彼此两年的时光了 两周年快乐呀 希望以后的每一天 我们都能开开心心 快快乐乐</p>]]></description>
+</item>
+<item>
+    <title>期待过年</title>
+    <link>http://localhost:1313/%E6%9C%9F%E5%BE%85%E8%BF%87%E5%B9%B4/</link>
+    <pubDate>Sun, 18 Jan 2026 06:55:35 &#43;0000</pubDate>
+    <author>王靖涵</author>
+    <guid>http://localhost:1313/%E6%9C%9F%E5%BE%85%E8%BF%87%E5%B9%B4/</guid>
+    <description><![CDATA[<p>虽然从认识到现在可以说是一起跨的第六年了，但是在一起之后是第二年 好期待啊 希望能在跨年前找到新年头像的运用之处 嘻嘻 卡哇伊 也期待zrc考完最后的两门回家嘻嘻🤭</p>]]></description>
+</item>
+<item>
+    <title>我爱我妹妹</title>
+    <link>http://localhost:1313/%E6%88%91%E7%88%B1%E6%88%91%E5%A6%B9%E5%A6%B9/</link>
+    <pubDate>Thu, 15 Jan 2026 14:32:50 &#43;0000</pubDate>
+    <author>王靖涵</author>
+    <guid>http://localhost:1313/%E6%88%91%E7%88%B1%E6%88%91%E5%A6%B9%E5%A6%B9/</guid>
+    <description><![CDATA[<p>我的妹妹王晨铭会给我做手链切水果 会很可爱的给她的小爱同学说晚安 我给她关门的时候也会给我说晚安 听见心就暖暖的❤️‍🔥❤️‍🔥❤️‍🔥</p>
+<p>我爱我妹妹 希望王晨铭可以健康快乐的成长❤️‍🔥❤️‍🔥❤️‍🔥</p>]]></description>
+</item>
+<item>
+    <title>分离</title>
+    <link>http://localhost:1313/%E5%88%86%E7%A6%BB/</link>
+    <pubDate>Thu, 08 Jan 2026 15:44:49 &#43;0000</pubDate>
+    <author>zrcc</author>
+    <guid>http://localhost:1313/%E5%88%86%E7%A6%BB/</guid>
+    <description><![CDATA[<p>今天分开了，好伤心，不过很快就能下次见面啦，爱你😘</p>]]></description>
+</item>
+<item>
+    <title>跨年</title>
+    <link>http://localhost:1313/%E8%B7%A8%E5%B9%B4/</link>
+    <pubDate>Thu, 01 Jan 2026 14:55:47 &#43;0000</pubDate>
+    <author>王靖涵</author>
+    <guid>http://localhost:1313/%E8%B7%A8%E5%B9%B4/</guid>
+    <description><![CDATA[<p>嘻嘻 第一次一起跨年 希望以后我们彼此都在对方身边🥰🥰👫</p>]]></description>
+</item>
+<item>
+    <title>😃</title>
+    <link>http://localhost:1313/posts/mylog/</link>
+    <pubDate>Wed, 26 Nov 2025 06:13:54 &#43;0000</pubDate>
+    <author>zrcc</author>
+    <guid>http://localhost:1313/posts/mylog/</guid>
+    <description><![CDATA[<p>作者请加上wjh</p>
+<p>记得是靖😂😂😂</p>]]></description>
 </item>
 </channel>
 </rss>
